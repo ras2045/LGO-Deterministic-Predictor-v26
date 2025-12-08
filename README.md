@@ -4,7 +4,7 @@
 
 ## 💡 Project Overview
 
-The LGO Deterministic Predictor (LGO-DP) is a novel C++ implementation that moves beyond probabilistic models for prime number distribution. It introduces a physically-anchored constant derived from fundamental physics (the Muon-to-Electron mass ratio, $C_{\text{LGO}}$) to enforce a rigid Density Correction mechanism. This mechanism is mathematically designed to ensure that the predicted prime gaps align with the average distribution required by the Prime Number Theorem (PNT)—a critical condition of the Riemann Hypothesis (RH).
+The LGO Deterministic Predictor (LGO-DP) is a novel C++ implementation that moves beyond probabilistic models for prime number distribution. It introduces a physically-anchored constant derived from fundamental physics (the Muon-to-Electron mass ratio, $C_{\text{LGO}}$) to enforce a rigid **Density Correction mechanism**. This mechanism is mathematically designed to ensure that the predicted prime gaps align with the average distribution required by the Prime Number Theorem (PNT)—a critical condition of the Riemann Hypothesis (RH).
 
 The methodology asserts that the apparent randomness in prime gaps is an indication of missing constraints, which this system supplies through the **Zeta-Stabilized LGO Constant ($\mathbf{C_{\text{LGO}}^*}$)**.
 
@@ -17,11 +17,10 @@ The methodology asserts that the apparent randomness in prime gaps is an indicat
 
 ## 🛠️ Build and Usage
 
-This project is written in C++ and intended for console execution on Windows environments (due to the use of `windows.h` for console control).
+This project is written in C++ and intended for console execution on Windows environments.
 
 ### Prerequisites
 * A C++ compiler (e.g., MinGW, GCC)
-* A suitable IDE (e.g., Code::Blocks, Visual Studio)
 
 ### Compilation
 1.  Save the code as **`lgojumpfinal.cpp`**.
@@ -29,18 +28,16 @@ This project is written in C++ and intended for console execution on Windows env
     ```bash
     g++ -std=c++11 lgojumpfinal.cpp -o lgojumpfinal.exe
     ```
-### Running the Program
-1.  Execute the compiled program:
-    ```bash
-    ./lgojumpfinal.exe
-    ```
-2.  Follow the console menu to select a starting prime or manually enter an arbitrary-length prime number to begin the prediction sequence.
 
 ## 📄 Documentation and IP
 
 Full academic documentation, including the complete source code listing and detailed theoretical explanation, is provided in the following LaTeX file:
 
 * **`main.tex`**: Comprehensive academic paper documenting the theoretical framework, constant derivations, and methodology.
+
+## 👤 Authorship
+
+**Creator and Lead Researcher:** Richard Sardini
 
 ## ⚖️ License
 
