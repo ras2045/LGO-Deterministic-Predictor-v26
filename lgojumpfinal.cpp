@@ -1,6 +1,6 @@
 /*
  * LGO Deterministic Predictor
- * Copyright (c) [Current Year, e.g., 2025] [Your Name/Company Name].
+ * Copyright (c) 2025 Richard Sardini.
  * Licensed under the Apache License, Version 2.0.
  */
 #include <windows.h>
@@ -113,10 +113,8 @@ std::string load_last_prime() {
     }
     
     if (!last_line.empty()) {
-        // Console output removed for clean GitHub file, keep logic
         return last_line;
     } else {
-        // Console output removed for clean GitHub file, keep logic
         return "";
     }
 }
